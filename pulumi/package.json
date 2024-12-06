@@ -1,0 +1,17 @@
+{
+    "name": "azureaddemo",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/azure-native": "^2.0.0",
+        "@pulumi/pulumi": "^3.113.0",
+        "@pulumi/azuread": "6.0.1",
+        "@pulumi/random": "4.16.7"
+    },
+    "scripts": {
+        "build": "NODE_OPTIONS=--max_old_space_size=8192 tsc -b tsconfig.json"
+    }
+}

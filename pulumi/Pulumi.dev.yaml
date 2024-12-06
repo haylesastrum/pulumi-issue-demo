@@ -1,0 +1,5 @@
+config:
+  azuread:clientId: placeholder
+  azuread:clientSecret: placeholder
+  azuread:subscriptionId: placeholder
+  azuread:tenantId: placeholder
